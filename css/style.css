@@ -1,0 +1,175 @@
+.digifont {
+    font-family: 'digifont';
+}
+
+body {
+    margin: 0px;
+    background-color: #333;
+}
+
+.hand {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#timer-container {
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#timer {
+    background-color: #242424;
+    color: #81d830;
+    text-align: center;
+    font-size: 80px;
+    line-height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*.seperator {
+    letter-spacing: -3px;
+}*/
+
+.blinking-colon {
+    color: #81d830;
+  -webkit-animation: 0.5s blink step-end infinite;
+  -moz-animation: 0.5s blink step-end infinite;
+  -ms-animation: 0.5s blink step-end infinite;
+  -o-animation: 0.5s blink step-end infinite;
+  animation: 0.5s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    50% { opacity: 0.0; }
+}
+
+@-moz-keyframes blink {
+    50% { opacity: 0.0; }
+}
+
+@-webkit-keyframes "blink" {
+    50% { opacity: 0.0; }
+}
+
+@-ms-keyframes "blink" {
+    50% { opacity: 0.0; }
+}
+
+@-o-keyframes "blink" {
+    50% { opacity: 0.0; }
+}
+
+.buttons {
+    background-color: #fff;
+    font-size: 42px;
+    line-height: 165%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.button-container {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.icon {
+    font-size: 65%;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+#lap {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #ccc;
+}
+
+#laplist {
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 100%;
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul:before, ul:after {
+    text-align: center;
+    display: block;
+    border-bottom: 0;
+}
+
+ul:before {
+    content: '';
+    border-right: 0;    
+}
+
+ul:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+li {
+    text-align: right;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #707070;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+
+li:nth-child(even) {
+    margin-left: -1px;
+}
+
+#laplist div {
+    display: inline-block;
+}
+
+.laptime {
+    width: 25%;
+}
+
+.lap-text {
+    width: 55%;
+}
+
+.lap-text>input {
+    width: 100%;
+    background-color: #333;
+    border: none;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.remove-btn {
+    width: 20%;
+    background-color: #ff0000;
+    text-align: center;
+    font-size: 80%;
+}

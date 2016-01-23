@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'digifont';
+    src:  url('Digital-7-Mono.ttf.woff') format('woff'),
+    url('Digital-7-Mono.ttf.svg#Digital-7-Mono') format('svg'),
+    url('Digital-7-Mono.ttf.eot'),
+    url('Digital-7-Mono.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
